@@ -1,0 +1,25 @@
+mkdir python-django-api
+cd python-django-api
+pip3 install virtualenv
+python -m virtualenv venv
+cd venv
+cd Scripts
+activate
+pip install django
+pip list
+django-admin startproject elevate
+cd elevate
+python manage.py runserver
+
+python username - adminuser, pw - whatever
+
+Please find attached important links for this section:
+
+Django Rest Framework main page:
+https://www.django-rest-framework.org/
+
+Django Rest Framework authentication page:
+https://www.django-rest-framework.org/api-guide/authentication/
+
+Django Rest Framework - Token authentication page:
+https://www.django-rest-framework.org/api-guide/authentication/#tokenauthentication
